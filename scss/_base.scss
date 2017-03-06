@@ -1,0 +1,72 @@
+// global stylez
+
+*,*:before,*:after {
+	box-sizing:border-box
+}
+
+body {
+	font-family: "helvetica-neue", sans-serif;
+}
+
+.NF {
+	color: red;
+}
+
+.month {
+	display: none;
+}
+
+.container {
+	max-width: 90vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+header {
+	float: right;
+}
+
+#january {
+	display: block;
+}
+
+h2 {
+	display: inline;
+	float: left;
+
+}
+
+ul {
+	position: absolute;
+	top: 10vw;
+}
+
+// .content {
+// 	display: none;
+// }
+
+.fact, .source {
+	display: inline;
+}
+
+li {
+	display: block;
+}
+
+h3 {
+	display: inline;
+}
+
+
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }

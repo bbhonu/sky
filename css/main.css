@@ -1,0 +1,67 @@
+/* line 3, ../scss/_base.scss */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* line 7, ../scss/_base.scss */
+body {
+  font-family: "helvetica-neue", sans-serif;
+}
+
+/* line 11, ../scss/_base.scss */
+.NF {
+  color: red;
+}
+
+/* line 15, ../scss/_base.scss */
+.month {
+  display: none;
+}
+
+/* line 19, ../scss/_base.scss */
+.container {
+  max-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+/* line 26, ../scss/_base.scss */
+header {
+  float: right;
+}
+
+/* line 30, ../scss/_base.scss */
+#january {
+  display: block;
+}
+
+/* line 34, ../scss/_base.scss */
+h2 {
+  display: inline;
+  float: left;
+}
+
+/* line 40, ../scss/_base.scss */
+ul {
+  position: absolute;
+  top: 10vw;
+}
+
+/* line 49, ../scss/_base.scss */
+.fact, .source {
+  display: inline;
+}
+
+/* line 53, ../scss/_base.scss */
+li {
+  display: block;
+}
+
+/* line 57, ../scss/_base.scss */
+h3 {
+  display: inline;
+}
+
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
