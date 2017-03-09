@@ -1,5 +1,8 @@
 // global stylez
 
+
+// JUST MAKE SURE THIS FILE IS SHOWING THE SAME RESULT AS YOU WANT THEN COPY IT TO THE MAIN PROJECT 1 FOLDER.
+
 *,*:before,*:after {
 	box-sizing:border-box
 }
@@ -16,37 +19,23 @@ body {
 
 
 @font-face {
-  font-family: "eczar";
-  src: url(../fonts/eczar-semibold.ttf);
+    font-family: "grobe";
+    src: url(../fonts/grobe-deutschmeister.ttf);
 }
 
 @font-face {
-  font-family: "bluunext";
-  src: url(../fonts/resistance_generale-webfont.ttf);
+    font-family: "circular-italic";
+    src: url(../fonts/circular-medium-italic.otf);
 }
 
 @font-face {
-  font-family: "bluunext";
-  src: url(../fonts/bluunext-bold.ttf);
+    font-family: "circular";
+    src: url(../fonts/circular-book.otf);
 }
 
 @font-face {
-  font-family: "circular";
-  src: url(../fonts/circular-book.otf);
-}
-
-@font-face {
-  font-family: "circular-bold";
-  src: url(../fonts/circular-bold.otf);
-}
-
-
-.NF {
-	color: red;
-}
-
-.month {
-	display: none;
+    font-family: "circular-bold";
+    src: url(../fonts/circular-bold.otf);
 }
 
 .container {
@@ -56,123 +45,134 @@ body {
 	margin-top: 30px;
 }
 
-header {
-	float: right;
-	padding-right:150px; 
-	margin-top: -20px;
-
-	h1 {
-			position: fixed;
-			font-family: 'bluunext';
-				width: 70px;
-				line-height: 30px;
-				color: #080138;
-				text-transform: uppercase;
+// set all months to hide except default current month
 
 
-	}
+.month {
+	display: none;
 }
 
 #january {
 	display: block;
 }
 
-h2 {
-	color:black;
-	font-size: 30px;
-	margin-left: 2vw;
-	margin-top: 25px;
-	position: fixed;
-	display: inline;
-	float: left;
-	vertical-align: baseline;
-	margin-right: auto;
-	width: 170px;
-	display: flex;
-	justify-content: space-between;
+//PAGE STYLES
+// links
 
+a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: rgba(245, 1, 73, 1);
+}
+
+a:active {
+    color: rgba(0, 255, 42, .6);
+}
+
+
+
+header {
+    margin-top: -3vw;
+    width: 100%;
+    position: fixed;
+    h1 {
+        font-family: 'grobe';
+        width: 10vw;
+        line-height: 3.5vw;
+        color: #080138;
+        font-size: 3.3vw;
+        text-align: right;
+        float: right;
+        margin-right: 3vw;
+    }
+}
+
+
+h2 {
+    font-family: 'circular';
+    color: white;
+    opacity: .7;
+    font-size: 30px;
+    margin-left: 3vw;
+    margin-top: 30px;
+    position: fixed;
+    display: inline;
+    float: left;
+    vertical-align: baseline;
+    margin-right: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2:hover {
 	color:white;
-
-}
-
-.fa-caret-left {
-	position: relative;
-font-size: 16px;
-top: 14px;
-height: 20px;
-width: 15px;
-cursor:pointer;
+	    opacity: 1;
 
 
 }
 
+// month nav arrows
 .fa {
-	color: black;
-}
-
-
-.fa:hover {
-	color: #e80161;
-
-}
-
-.fa:active {
-	color:#a631e2;
+    color: #00FF2A;
+    top: 12px;
+    position: relative;
+    font-size: 20px;
+    height: 20px;
+    width: 18px;
+    cursor: pointer;
 }
 
 .fa-caret-right {
-	position: relative;
-font-size: 16px;
-top: 14px;
-height: 20px;
-width: 18px;
-margin-left: 8px;
-cursor:pointer;
-} 
+    margin-left: 8px;
+}
 
+.fa:hover {
+    color: #e80161;
+}
 
+.fa:active {
+    color: #a631e2;
+}
+
+// hide left january and right december arrows
 #janleft {
-	opacity: 0;
+    opacity: 0;
 }
 
 #decright {
-	opacity: 0;
+    opacity: 0;
 }
 
-#left, #right {
-	display: inline;
-	margin-top: 0px;
-	margin-right: 110px;
-	margin-left: 2px;
-}
-
-div.nav {
-	position: absolute;
-	margin-top: 25px;
-}
+//-
 
 ul {
-	position: absolute;
-	top: 150px;
-	// padding-left: 170px;
-	// padding-right: auto;
-	// padding-left: 170px;
-	// padding-right: 30px;
-	width: 100%;
-	padding-left: 0px;
-	margin-left:-8px;
-	max-height: 90%;
-	overflow: scroll
-	}
+    position: absolute;
+    top: 150px;
+    // padding-left: 170px;
+    // padding-right: auto;
+    // padding-left: 170px;
+    // padding-right: 30px;
+    width: 100%;
+    padding-left: 0px;
+    margin-left: -8px;
+    max-height: 90%;
+    overflow: scroll
+}
+
 
 li {
-	padding: 0vw 20vw;
-	display: block;
-	margin-bottom: 50px;
-	width: 100%;
+    padding: 0vw 15vw;
+    display: block;
+    width: 100%;
+    margin-bottom: 10vw;
 }
 
 .content {
@@ -180,34 +180,24 @@ li {
     height: 0;
     padding: 0 8px;
     overflow: hidden;
-    transition: all .7s ease .15s;
+    transition: all .8s ease-out .15s;
+    margin-top: -5vw;
     padding-left: 15vw;
+    line-height: 24px;
+    height: 0px;
+
+
 }
 
 .showcontent {
+	margin-top: -2vw;
     opacity:1;
     height: 200px;
-    padding: 8px; 
-    transition: all .7s ease .15s; 
+    transition: all .8s ease-in .15s;
     padding-left: 15vw;
+        line-height: 24px;
+
     // background-color: pink;
-
-}
-
-.janatgo {
-	transition: all .7s ease .15s; 
-
-}
-
-#jan-a {
-
-}
-
-.blackround {
-	// background-color: rgba(0,0,0,.5);
-// 	-webkit-box-shadow: 0px 0px 45px 12px rgba(0,0,0,0.5);
-// -moz-box-shadow: 0px 0px 45px 12px rgba(0,0,0,0.5);
-// box-shadow: 0px 0px 45px 12px rgba(0,0,0,0.5);
 
 }
 
@@ -229,69 +219,86 @@ li {
 .vis {
 	font-style: italic;
 }
-
+.activesection {
+    // color:red;
+    font-family: 'grobe';
+    font-size: 4.5vw;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 67vw;
+    margin-left: 7vw;
+    color: rgba(0, 255, 42, .6);
+    h3 {
+        color: white;
+        font-size: 4.5vw;
+        display: inline;
+        opacity: 1;
+        font-family: "circular-bold";
+        margin-left: 4vw;
+        border-bottom: solid 1px rgba(0, 255, 42, .6);
+    }
+}
 
 .title {
-	margin-left: auto;
-	margin-right: auto;
-	font-family: 'eczar';
-	font-size: 2.7em;
-	margin-bottom: 30px;
-	display: flex;
-	align-items: center;
-	cursor: pointer;
-
-	h3 {
-			font-size: 1.2em;
-			display: inline;
-			margin-left: 60px;
-			opacity: .7;
-			font-family: "circular";
-
-
-	}
+    // margin-left: auto;
+    // margin-right: auto;
+    font-family: 'grobe';
+    font-size: 4.5vw;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 67vw;
+    margin-left: 7vw;
+    color: rgba(245, 1, 73, .35);
+    // -webkit-text-stroke-width: .5px;
+    // -webkit-text-stroke-color: rgba(0,255,42,.6);
+    h3 {
+        // -webkit-text-stroke-width: 0px;
+        color: white;
+        font-size: 4.5vw;
+        display: inline;
+        opacity: .7;
+        font-family: "circular";
+        margin-left: 4vw;
+    }
 }
 
-img {
-	display: none;
-}
 
 .title:hover {
-
-		display: flex;
-	align-items: center;
-
-
-
-	h3 {
-		color:white;
-			opacity: 1;
-				font-family: "circular-bold";
-			border-bottom: solid 1px rgba(245,1,73,.6);
-// background-color: rgba(245,1,73,.6);
-
-
-
-
-
-
-	}
+    display: flex;
+    align-items: center;
+    color: rgba(65, 35, 91, .6);
+    h3 {
+        color: white;
+        opacity: 1;
+        font-family: "circular-bold";
+        border-bottom: solid 1px rgba(0, 255, 42, .6);
+        // background-color: rgba(245,1,73,.6);
+    }
 }
-
-.sizeup {
-	font-size: 35px;
-	-webkit-transition: all 0.3s ease;
--moz-transition: all 0.3s ease;
--o-transition: all 0.3s ease;
--ms-transition: all 0.3s ease;
+.dyk {
+    color: rgba(245, 1, 73, .7);
+    font-family: "circular-italic";
+    font-size: 22px;
 }
-
 
 img {
-	margin-left: 30px;
-	margin-right: 30px;
-	vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    vertical-align: baseline;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    display: none;
 }
+
+//sources
+p.source {
+    font-family: "circular-italic";
+    font-size: 12px;
+    color: gray;
+}
+
 
 
 
@@ -307,6 +314,16 @@ img {
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
 
+    	header {
+        color: white;
+        h1 {
+            width: 26vw;
+            font-size: 8vw;
+            line-height: 9vw;
+            color: white;
+        }
+    }
+
     	body {
     		background-position: top left;
     	}
@@ -316,17 +333,23 @@ img {
     	}
 
 
-
-    	.title {
-    		font-size: 2.3em;
-
-    		h3 {
-
-    			font-size: 1em;
-    			padding-right: 30px;
-
-    		}
-    	}
+.title {
+        font-size: 8vw;
+        margin-top: 20px;
+        h3 {
+            margin-left: 30px;
+            margin-right: 30px;
+            font-size: 8vw;
+        }
+    }
+    .activesection {
+        font-size: 8vw;
+        margin-top: 20px;
+        h3 {
+            font-size: 8vw;
+            margin-left: 30px;
+        }
+    }
 
 
     }

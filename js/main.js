@@ -212,46 +212,19 @@ document.getElementById("decleft").addEventListener("click",decleft);
 
 
 
-
-
-
-
-
-
-
-//  document.getElementById("left").addEventListener("click",loopmonthsdown);
-// document.getElementById("right").addEventListener("click",loopmonthsup);
-
-
-
 // show description
-var jan34 = document.getElementById("jan-a-t");
-function description (){
-	var content=document.getElementById("jan-a-c");
-var jana =document.getElementById("jan-a");
-var img=document.getElementById("janat");
 
-
-	// if(content.style.display !== 'none') {
-	// 	content.style.display= 'none';
-
-	// } else {
-	// 	content.style.display='block';
-	// 	content.className="transition";
-	// }
-
-
+function description (contentid,titleid){
+	var content=document.getElementById(contentid);
+	var title=document.getElementById(titleid);
 	if (content.className !== 'showcontent') {
-		// img.src="img/suntest.gif";
 	content.className="showcontent";
-	// jan34.style.fontSize="6em";
-	jana.className="blackround";
+	title.className="activesection";
 
-	img.className="janatgo";
+
 } else {
 	content.className="content";
-	// img.src="img/suntest.png";
-	jana.style.backgroundColor="rgba(0,0,0,0)"
+	title.className="title"
 
 
 
@@ -260,7 +233,231 @@ var img=document.getElementById("janat");
 
 }
 
-jan34.addEventListener("click", description);
+
+
+// january show content 
+	
+	document.getElementById("jan-a-t").addEventListener("click", function(){
+	description("jan-a-c","jan-a-t")}
+	);
+
+	document.getElementById("jan-b-t").addEventListener("click", function(){
+	description("jan-b-c","jan-b-t")}
+	);
+
+	document.getElementById("jan-c-t").addEventListener("click", function(){
+	description("jan-c-c","jan-c-t")}
+	);
+
+	document.getElementById("jan-d-t").addEventListener("click", function(){
+	description("jan-d-c","jan-d-t")}
+	);
+
+	document.getElementById("jan-e-t").addEventListener("click", function(){
+	description("jan-e-c","jan-e-t")}
+	);
+
+// february show content
+
+	document.getElementById("feb-a-t").addEventListener("click", function(){
+	description("feb-a-c","feb-a-t")}
+	);
+
+	document.getElementById("feb-b-t").addEventListener("click", function(){
+	description("feb-b-c","feb-b-t")}
+	);
+
+
+// march show content 
+
+
+	document.getElementById("mar-a-t").addEventListener("click", function(){
+	description("mar-a-c","mar-a-t")}
+	);
+
+
+	document.getElementById("mar-b-t").addEventListener("click", function(){
+	description("mar-b-c","mar-b-t")}
+	);
+
+	document.getElementById("mar-c-t").addEventListener("click", function(){
+	description("mar-c-c","mar-c-t")}
+	);
+
+// april show content 
+
+
+	document.getElementById("apr-a-t").addEventListener("click", function(){
+	description("apr-a-c","apr-a-t")}
+	);
+
+
+	document.getElementById("apr-b-t").addEventListener("click", function(){
+	description("apr-b-c","apr-b-t")}
+	);
+
+	document.getElementById("apr-c-t").addEventListener("click", function(){
+	description("apr-c-c","apr-c-t")}
+	);
+
+	document.getElementById("apr-d-t").addEventListener("click", function(){
+	description("apr-d-c","apr-d-t")}
+	);
+
+	document.getElementById("apr-e-t").addEventListener("click", function(){
+	description("apr-e-c","apr-e-t")}
+	);
+
+// may show content 
+
+
+	document.getElementById("may-a-t").addEventListener("click", function(){
+	description("may-a-c","may-a-t")}
+	);
+
+	document.getElementById("may-b-t").addEventListener("click", function(){
+	description("may-b-c","may-b-t")}
+	);
+
+	document.getElementById("may-c-t").addEventListener("click", function(){
+	description("may-c-c","may-c-t")}
+	);
+
+// june show content
+
+	document.getElementById("jun-a-t").addEventListener("click", function(){
+	description("jun-a-c","jun-a-t")}
+	);
+
+	document.getElementById("jun-b-t").addEventListener("click", function(){
+	description("jun-b-c","jun-b-t")}
+	);
+
+
+	document.getElementById("jun-c-t").addEventListener("click", function(){
+	description("jun-c-c","jun-c-t")}
+	);
+
+	document.getElementById("jun-d-t").addEventListener("click", function(){
+	description("jun-d-c","jun-d-t")}
+	);
+
+
+	document.getElementById("jun-e-t").addEventListener("click", function(){
+	description("jun-e-c","jun-e-t")}
+	);
+
+//julyshowcontent 
+
+	document.getElementById("jul-a-t").addEventListener("click", function(){
+	description("jul-a-c","jul-a-t")}
+	);
+
+	document.getElementById("jul-b-t").addEventListener("click", function(){
+	description("jul-b-c","jul-b-t")}
+	);
+
+	document.getElementById("jul-c-t").addEventListener("click", function(){
+	description("jul-c-c","jul-c-t")}
+	);
+
+
+
+
+
+// august show content
+
+
+	document.getElementById("aug-a-t").addEventListener("click", function(){
+	description("aug-a-c","aug-a-t")}
+	);
+
+	document.getElementById("aug-b-t").addEventListener("click", function(){
+	description("aug-b-c","aug-b-t")}
+	);
+
+	document.getElementById("aug-c-t").addEventListener("click", function(){
+	description("aug-c-c","aug-c-t")}
+	);
+
+// september show content 
+
+
+	document.getElementById("sep-a-t").addEventListener("click", function(){
+	description("sep-a-c","sep-a-t")}
+	);
+
+	document.getElementById("sep-b-t").addEventListener("click", function(){
+	description("sep-b-c","sep-b-t")}
+	);
+
+	document.getElementById("sep-c-t").addEventListener("click", function(){
+	description("sep-c-c","sep-c-t")}
+	);
+
+	document.getElementById("sep-d-t").addEventListener("click", function(){
+	description("sep-d-c","sep-d-t")}
+	);
+
+// october show content
+
+	document.getElementById("oct-a-t").addEventListener("click", function(){
+	description("oct-a-c","oct-a-t")}
+	);
+
+
+	document.getElementById("oct-b-t").addEventListener("click", function(){
+	description("oct-b-c","oct-b-t")}
+	);
+
+	document.getElementById("oct-c-t").addEventListener("click", function(){
+	description("oct-c-c","oct-c-t")}
+	);
+
+// november show content
+
+
+	document.getElementById("nov-a-t").addEventListener("click", function(){
+	description("nov-a-c","nov-a-t")}
+	);
+
+
+	document.getElementById("nov-b-t").addEventListener("click", function(){
+	description("nov-b-c","nov-b-t")}
+	);
+
+
+	document.getElementById("nov-c-t").addEventListener("click", function(){
+	description("nov-c-c","nov-c-t")}
+	);
+
+
+	document.getElementById("nov-d-t").addEventListener("click", function(){
+	description("nov-d-c","nov-d-t")}
+	);
+
+
+	document.getElementById("nov-e-t").addEventListener("click", function(){
+	description("nov-e-c","nov-e-t")}
+	);
+
+// december show content
+
+	document.getElementById("dec-a-t").addEventListener("click", function(){
+	description("dec-a-c","dec-a-t")}
+	);
+
+	document.getElementById("dec-b-t").addEventListener("click", function(){
+	description("dec-b-c","dec-b-t")}
+	);
+
+	document.getElementById("dec-c-t").addEventListener("click", function(){
+	description("dec-c-c","dec-c-t")}
+	);
+
+	document.getElementById("dec-d-t").addEventListener("click", function(){
+	description("dec-d-c","dec-d-t")}
+	);
 
 
 
