@@ -165,7 +165,13 @@ ul {
     margin-left: -8px;
     max-height: 85%;
     overflow: scroll
+
 }
+
+    ul::-webkit-scrollbar { 
+    display: none; 
+}
+
 
 
 li {
