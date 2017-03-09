@@ -163,7 +163,7 @@ ul {
     width: 100%;
     padding-left: 0px;
     margin-left: -8px;
-    max-height: 90%;
+    max-height: 85%;
     overflow: scroll
 }
 
@@ -204,15 +204,12 @@ li {
 
 
 .fact, .source {
-	display: inline;
+	display: block;
 }
 
-.dyk {
-	color: purple;
-}
 
 .source {
-	font-size: 10px;
+	font-size: 8px;
 
 }
 
@@ -280,7 +277,12 @@ li {
 .dyk {
     color: rgba(245, 1, 73, .7);
     font-family: "circular-italic";
-    font-size: 22px;
+    font-size: 25px;
+}
+
+p.vis {
+	color:#856a98;
+
 }
 
 img {
@@ -303,7 +305,22 @@ p.source {
 
 
     /* Small Devices, Tablets */
+
+
+//switch to white header
+    @media only screen and (max-width : 920px){
+
+   header {
+    		h1{
+        color: white;
+    }
+    }
+
+
+    }
     @media only screen and (max-width : 768px) {
+
+
 
     	body {
     		background-position: top left;
@@ -313,6 +330,10 @@ p.source {
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
+
+    	ul {
+	top:110px;
+    	}
 
     	header {
         color: white;
