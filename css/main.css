@@ -5,7 +5,7 @@
 
 /* line 9, ../scss/_base.scss */
 body {
-  background: url(../img/bkg2.jpg) no-repeat top left fixed;
+  background: url(../img/bkg1.jpg) no-repeat top left fixed;
   font-family: "circular", sans-serif;
   background-size: cover;
   color: white;
@@ -74,128 +74,124 @@ header h1 {
   text-align: right;
   float: right;
   margin-right: 3vw;
-    width: 120px;
-    font-size: 33px;
-    line-height: 37px;
-    padding-right: 20px;
-/*    color: white;
-*/}
-
-/* line 97, ../scss/_base.scss */
-h2 {
-    font-family: 'circular';
-    color: white;
-    opacity: .7;
-    font-size: 30px;
-    margin-left: 1.5vw;
-    margin-top: 30px;
-    position: fixed;
-    display: inline;
-    float: left;
-    vertical-align: baseline;
-    margin-right: auto;
-    width: 222px;
-    display: flex;
-    justify-content: space-between;
+  width: 144px;
+  font-size: 40px;
+  line-height: 37px;
+  padding-right: 20px;
 }
 
-/* line 114, ../scss/_base.scss */
+/* line 98, ../scss/_base.scss */
+h2 {
+  font-family: 'circular';
+  color: white;
+  opacity: .7;
+  font-size: 30px;
+  margin-left: 2vw;
+  margin-top: 10px;
+  position: fixed;
+  display: inline;
+  float: left;
+  vertical-align: baseline;
+  margin-right: auto;
+  width: 209px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 115, ../scss/_base.scss */
 h2:hover {
   color: white;
   opacity: 1;
 }
 
-/* line 122, ../scss/_base.scss */
+/* line 123, ../scss/_base.scss */
 .fa {
-color: #00FF2A;
-    top: 0px;
-    position: relative;
-    font-size: 42px;
-    height: 20px;
-    /* width: 18px; */
-    cursor: pointer;
-    /* -webkit-text-stroke: 1.5px #00FF2A; */
+  color: #00FF2A;
+  top: 4px;
+  position: relative;
+  font-size: 31px;
+  height: 20px;
+  width: 28px;
+  cursor: pointer;
 }
 
-/* line 132, ../scss/_base.scss */
+/* line 134, ../scss/_base.scss */
 .fa-caret-right {
   margin-left: 8px;
 }
 
-/* line 136, ../scss/_base.scss */
+/* line 138, ../scss/_base.scss */
 .fa:hover {
   color: rgba(245, 1, 73, 0.7);
 }
 
-/* line 140, ../scss/_base.scss */
+/* line 142, ../scss/_base.scss */
 .fa:active {
   color: #a631e2;
 }
 
-/* line 145, ../scss/_base.scss */
+/* line 147, ../scss/_base.scss */
 #janleft {
   opacity: 0;
 }
 
-/* line 149, ../scss/_base.scss */
+/* line 151, ../scss/_base.scss */
 #decright {
   opacity: 0;
 }
 
-/* line 155, ../scss/_base.scss */
+/* line 157, ../scss/_base.scss */
 ul {
-    position: absolute;
-    top: 100px;
-    width: 100%;
-    padding-left: 0px;
-    margin-left: -8px;
-    max-height: 80%;
-    overflow: scroll;
+  position: absolute;
+  top: 130px;
+  width: 100%;
+  padding-left: 0px;
+  margin-left: -8px;
+  max-height: 80%;
+  overflow: scroll;
 }
 
-/* line 170, ../scss/_base.scss */
+/* line 169, ../scss/_base.scss */
 ul::-webkit-scrollbar {
   display: none;
 }
 
-/* line 176, ../scss/_base.scss */
+/* line 175, ../scss/_base.scss */
 li {
-    display: block;
-    width: 100%;
-    /* padding-bottom: 10vw; */
-    padding: 5vw 8vw;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    /* margin-bottom: 10vw; */
+  display: block;
+  width: 100%;
+  /* padding-bottom: 10vw; */
+  padding: 0vw 8vw;
+  margin: 5vw 0vw;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  box-shadow: 0px 0px 0px 0px rgba(8, 1, 56, 0.5);
 }
 
-/* line 183, ../scss/_base.scss */
+/* line 189, ../scss/_base.scss */
 .content {
-    padding-top: 5px;
-    /* padding-left: 6vw; */
-    line-height: 24px;
-    border-top: solid 1px rgba(0, 255, 42, 0.6);
-/*    width: 67vw;
-*/;
+  padding-top: 5px;
+  line-height: 24px;
+  width: 86vw;
 }
 
-/* line 210, ../scss/_base.scss */
+/* line 214, ../scss/_base.scss */
 .fact, .source {
   display: block;
 }
 
-/* line 215, ../scss/_base.scss */
+/* line 219, ../scss/_base.scss */
 .source {
   font-size: 8px;
 }
 
-/* line 220, ../scss/_base.scss */
+/* line 224, ../scss/_base.scss */
 .vis {
   font-style: italic;
 }
 
-/* line 223, ../scss/_base.scss */
+/* line 227, ../scss/_base.scss */
 .activesection {
   font-family: 'grobe';
   font-size: 4.5vw;
@@ -206,7 +202,7 @@ li {
   margin-left: 7vw;
   color: rgba(0, 255, 42, 0.6);
 }
-/* line 233, ../scss/_base.scss */
+/* line 237, ../scss/_base.scss */
 .activesection h3 {
   color: white;
   font-size: 4.5vw;
@@ -214,21 +210,20 @@ li {
   opacity: 1;
   font-family: "circular-bold";
   margin-left: 4vw;
-/*  border-bottom: solid 1px rgba(0, 255, 42, 0.6);
-*/}
-
-/* line 244, ../scss/_base.scss */
-.title {
-    font-family: 'grobe';
-    font-size: 4.5vw;
-    display: flex;
-    align-items: baseline;
-    cursor: pointer;
-/*    width: 86vw;
-*/    color: rgba(245, 1, 73, 0.7);
-    padding-bottom: 5px;
 }
-/* line 257, ../scss/_base.scss */
+
+/* line 248, ../scss/_base.scss */
+.title {
+  font-family: 'grobe';
+  font-size: 4.5vw;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 86vw;
+  color: rgba(245, 1, 73, 0.7);
+  padding-bottom: 5px;
+}
+/* line 262, ../scss/_base.scss */
 .title h3 {
   color: white;
   font-size: 4.5vw;
@@ -237,37 +232,33 @@ li {
   font-family: "circular";
   margin-left: 4vw;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
-/* line 271, ../scss/_base.scss */
+/* line 276, ../scss/_base.scss */
 .title:hover {
-/*  display: flex;
-  align-items: center;*/
   color: rgba(65, 35, 91, 0.6);
   border-bottom: solid 1px rgba(0, 255, 42, 0.6);
-
 }
-/* line 275, ../scss/_base.scss */
+/* line 283, ../scss/_base.scss */
 .title:hover h3 {
   color: white;
   opacity: 1;
-/*  font-family: "circular-bold";
-*//*  border-bottom: solid 1px rgba(0, 255, 42, 0.6);
-*/}
+}
 
-/* line 283, ../scss/_base.scss */
+/* line 290, ../scss/_base.scss */
 .dyk {
   color: rgba(245, 1, 73, 0.7);
   font-family: "circular-italic";
   font-size: 25px;
 }
 
-/* line 289, ../scss/_base.scss */
+/* line 296, ../scss/_base.scss */
 p.vis {
   color: #856a98;
 }
 
-/* line 294, ../scss/_base.scss */
+/* line 301, ../scss/_base.scss */
 img {
   max-width: 100%;
   height: auto;
@@ -277,7 +268,7 @@ img {
   display: none;
 }
 
-/* line 304, ../scss/_base.scss */
+/* line 311, ../scss/_base.scss */
 p.source {
   font-family: "circular-italic";
   font-size: 12px;
@@ -285,99 +276,81 @@ p.source {
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 920px) {
-  /* line 320, ../scss/_base.scss */
+@media only screen and (max-width: 768px) {
+  /* line 333, ../scss/_base.scss */
   header h1 {
     color: white;
+    font-size: 43px;
+    width: 151px;
   }
-}
-@media only screen and (max-width: 768px) {
-  /* line 331, ../scss/_base.scss */
+
+  /* line 340, ../scss/_base.scss */
   body {
     background-position: top left;
   }
 
+  /* line 344, ../scss/_base.scss */
   .title {
-        font-size: 7vw;
-/*        width: 85vw;
-*/        margin-left: 1vw;
-
+    font-size: 7vw;
+    /*        width: 85vw;
+    */
+    margin-left: 1vw;
   }
 
-  .content {
-/*            width: 85vw;
-*/
-  }
-
-    .title h3 {
+  /* line 352, ../scss/_base.scss */
+  .title h3 {
     margin-left: 30px;
     margin-right: 30px;
     font-size: 8vw;
   }
 
-/*    header h1 {
-    width: 120px;
-    font-size: 33px;
-    line-height: 37px;
-    padding-right: 20px;
-    color: white;
-  }*/
+  /*    header h1 {
+      width: 120px;
+      font-size: 33px;
+      line-height: 37px;
+      padding-right: 20px;
+      color: white;
+    }*/
+  /* line 367, ../scss/_base.scss */
+  li {
+    /*    margin-bottom: 10vw;
+    */
+  }
 }
-
-
-li {
-      padding: 5vw 8vw;
-    display: block;
-    width: 100%;
-/*    margin-bottom: 10vw;
-*/}
-
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  /* line 340, ../scss/_base.scss */
+  /* line 379, ../scss/_base.scss */
   ul {
     top: 110px;
   }
 
-  /* line 344, ../scss/_base.scss */
+  /* line 383, ../scss/_base.scss */
   header {
     color: white;
-        margin-top: -11vw;
+    margin-top: -10vw;
   }
-  /* line 346, ../scss/_base.scss */
-/*  header h1 {
-    width: 28vw;
-    font-size: 8vw;
-    line-height: 9vw;
-    padding-right: 20px;
-    color: white;
-  }*/
+  /* line 387, ../scss/_base.scss */
+  header h1 {
+    font-size: 32px;
+    width: 130px;
+  }
 
-  /* line 354, ../scss/_base.scss */
+  /* line 393, ../scss/_base.scss */
   body {
     background-position: top left;
   }
 
-  /* line 358, ../scss/_base.scss */
-  li {
-    padding: 5vw 8vw;
-  }
-
-  /* line 363, ../scss/_base.scss */
+  /* line 398, ../scss/_base.scss */
   .title {
-    margin-top: 20px;
     font-size: 10vw;
   }
-  /* line 366, ../scss/_base.scss */
 
-
-  /* line 372, ../scss/_base.scss */
+  /* line 402, ../scss/_base.scss */
   .activesection {
     font-size: 8vw;
     margin-top: 20px;
   }
-  /* line 375, ../scss/_base.scss */
+  /* line 405, ../scss/_base.scss */
   .activesection h3 {
     font-size: 8vw;
     margin-left: 30px;
