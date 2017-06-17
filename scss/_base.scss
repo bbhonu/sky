@@ -1,7 +1,6 @@
 // global stylez
 
 
-// JUST MAKE SURE THIS FILE IS SHOWING THE SAME RESULT AS YOU WANT THEN COPY IT TO THE MAIN PROJECT 1 FOLDER.
 
 *,*:before,*:after {
 	box-sizing:border-box
@@ -48,9 +47,9 @@ body {
 // set all months to hide except default current month
 
 
-.month {
-	display: none;
-}
+// .month {
+// 	display: none;
+// }
 
 #january {
 	display: block;
@@ -182,30 +181,29 @@ li {
 }
 
 .content {
-    opacity:0;
-    height: 0;
+    // opacity:0;
+    // height: 0;
     padding: 0 8px;
-    overflow: hidden;
-    transition: all .8s ease-out .15s;
-    margin-top: -5vw;
+    // overflow: hidden;
     padding-left: 15vw;
     line-height: 24px;
-    height: 0px;
 
 
 }
 
-.showcontent {
-	margin-top: -2vw;
-    opacity:1;
-    height: 200px;
-    transition: all .8s ease-in .15s;
-    padding-left: 15vw;
-        line-height: 24px;
 
-    // background-color: pink;
 
-}
+// .showcontent {
+// 	margin-top: -2vw;
+//     opacity:1;
+//     height: 200px;
+//     transition: all .8s ease-in .15s;
+//     padding-left: 15vw;
+//         line-height: 24px;
+
+//     // background-color: pink;
+
+// }
 
 
 
@@ -253,7 +251,7 @@ li {
     cursor: pointer;
     width: 67vw;
     margin-left: 7vw;
-    color: rgba(245, 1, 73, .35);
+    color: rgba(245, 1, 73, .7);
     // -webkit-text-stroke-width: .5px;
     // -webkit-text-stroke-color: rgba(0,255,42,.6);
     h3 {
@@ -264,7 +262,9 @@ li {
         opacity: .7;
         font-family: "circular";
         margin-left: 4vw;
-    }
+        margin-top: 10px;
+        margin-bottom: 0px;
+        }
 }
 
 
