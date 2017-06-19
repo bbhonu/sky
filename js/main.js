@@ -44,7 +44,7 @@ $(".title").click(function(e){
 	else {
 		$div.slideDown(500);
 
-		$(this).parent().css("backgroundColor","rgba(8,1,56,.7)");
+		$(this).parent().css("backgroundColor","rgba(5, 1, 7, 0.28)");
 				$(this).parent().animate({padding: "3vw 8vw",margin:"7vw 0vw"},"slow");
 								// $(this).css("padding","0vw");
 
@@ -60,6 +60,8 @@ $(document).click(function(e){
 	var p = $(e.target).closest("li").length
 	if(!p) {
 		$(".content").slideUp(500);
+				$("li").css("backgroundColor","rgba(8,1,56,0)");
+
 									$("li").animate({padding: "0vw 8vw",margin:"7vw 0vw"},"slow");
 
 $("ul").css("top","100px");
